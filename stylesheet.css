@@ -1,0 +1,41 @@
+body {
+    display: flex; /* Enable flexbox for body */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Optional: Set a clean font */
+  }
+  
+  #image {
+    width: 400px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    background-color: #f0f0f0;
+    background-size: cover;
+    font-size: 20px;
+    color: #333;
+    border: 2px solid #ddd;
+    margin-bottom: 20px; /* Space between the large image and the previews */
+  }
+  
+  .preview {
+    width: 100px;
+    height: 75px;
+    margin: 10px; /* Space between the images */
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .preview-container {
+    display: flex; /* Arrange images in a row */
+    justify-content: center; /* Center the images in their container */
+  }
+  
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+
+  }
